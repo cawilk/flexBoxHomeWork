@@ -1,0 +1,56 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+body{
+    background: #eee;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#blocks{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+#blocks div{
+    flex: 0 0 100px;
+    padding: 40px 0;
+    text-align: center;
+    background: #ccc
+}
+
+.box{
+    width: 100px;
+    flex: 0 0 100px;
+}
+
+.one{
+    background: red;
+    order: 4;
+
+}
+
+.two{
+    background: blue;
+    order: 1;
+
+}
+
+.three{
+    background: green;
+    order: 2;
+
+}
+
+.four{
+    order:3;
+    background: yellow;
+}
+
